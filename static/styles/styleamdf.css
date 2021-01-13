@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------Navbar---------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #818A93!important;
+}
+
+/*-------Heading-----------*/
+#heading
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+#heading h2
+{
+    text-align: center;
+    color: #ffffff !important;
+    padding-bottom: 10px;
+}
+
+#heading h2::after
+{
+    content: '';
+    background: #ffffff;
+    display: block;
+    height: 3px;
+    width: 280px;
+    margin: 8px auto 5px;
+}
+
+/*----------Form-----------*/
+#form
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .btn
+ {
+    margin-left: 480px;
+    margin-top: 20px;
+ }
+
+.form-control
+{
+    margin-top: 20px;
+}

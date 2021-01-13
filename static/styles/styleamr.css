@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------Navbar---------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #818A93!important;
+}
+
+/*-------Banner-------*/
+#background
+{
+    width: 100%;
+}
+
+.carousel-inner > .carousel-item  > img {
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 400px;
+}
+
+/*----------Heading---------*/
+#heading
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+#heading h2
+{
+    text-align: center;
+    color: #ffffff !important;
+    padding-bottom: 10px;
+}
+
+#heading h2::after
+{
+    content: '';
+    background: #ffffff;
+    display: block;
+    height: 3px;
+    width: 280px;
+    margin: 8px auto 5px;
+}
+
+#heading p
+{
+    text-align: center;
+    color: #ffffff !important;
+    padding-bottom: 10px;
+}
+
+/*--------DisplayDisease-----------*/
+#display
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(backg7.jpg);
+}
+
+#display h4
+{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
